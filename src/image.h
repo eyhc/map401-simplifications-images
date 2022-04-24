@@ -17,10 +17,10 @@ typedef enum {BLANC=0,NOIR=1} Pixel;
  */
 typedef struct Image_
 {
-	UINT L,H; /* largeur et hauteur de l'image */
-	Pixel* tab; /*  tableau de pixels */
-	/* le pixel d'abscisse x et d'ordonnee y avec 1<=x<=L et 1<=y<=H 
-	   est tab[x-1+L*(y-1)] */
+    UINT L,H; /* largeur et hauteur de l'image */
+    Pixel* tab; /*  tableau de pixels */
+    /* le pixel d'abscisse x et d'ordonnee y avec 1<=x<=L et 1<=y<=H 
+       est tab[x-1+L*(y-1)] */
 } Image;
 
 /* creation d'une image PBM de dimensions L x H avec tous les pixels blancs */

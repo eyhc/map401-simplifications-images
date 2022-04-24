@@ -11,17 +11,17 @@
 /*---- le type cellule de liste de Contour ----*/
 typedef struct Cellule_Liste_Contour_
 {
-	Contour data;    /* donnee de l'element de liste */
-	struct Cellule_Liste_Contour_* suiv; /* pointeur sur l'element suivant */
+    Contour data;    /* donnee de l'element de liste */
+    struct Cellule_Liste_Contour_* suiv; /* pointeur sur l'element suivant */
 } Cellule_Liste_Contour;
 
 /*---- le type liste de contour ----*/
 typedef struct Liste_Contour_
 {
-	unsigned int taille;        /* nombre d'elements dans la liste */
-	Cellule_Liste_Contour *first; /* pointeur sur le premier element de la liste */
-	Cellule_Liste_Contour *last;  /* pointeur sur le dernier element de la liste */
-	                            /* first = last = NULL et taille = 0 <=> liste vide */
+    unsigned int taille;        /* nombre d'elements dans la liste */
+    Cellule_Liste_Contour *first; /* pointeur sur le premier element de la liste */
+    Cellule_Liste_Contour *last;  /* pointeur sur le dernier element de la liste */
+                                /* first = last = NULL et taille = 0 <=> liste vide */
 } Liste_Contour;
 
 /* creer une cellule de liste avec l'element v 
