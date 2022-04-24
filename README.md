@@ -2,9 +2,7 @@
 Simplification d'images bitmap en images vectorielles. Langage C
 
 
-L'ensemble des comptes rendus et du sujet ce trouve ici:
-
-[https://fr.overleaf.com/read/ngwjqvjdyfsx](https://fr.overleaf.com/read/ngwjqvjdyfsx)
+L'ensemble des comptes rendus et du sujet ce trouve ici : [https://fr.overleaf.com/read/ngwjqvjdyfsx](https://fr.overleaf.com/read/ngwjqvjdyfsx)
 
 ## Copier les sources
 
